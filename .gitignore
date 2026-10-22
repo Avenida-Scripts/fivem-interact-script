@@ -1,0 +1,11 @@
+# The public repo this resource came from had web/node_modules committed:
+# 7725 files, 153 MB. Keep it out this time.
+web/node_modules/
+
+# Vite / build leftovers. web/build/ IS committed on purpose - it is the
+# artifact the resource actually loads at runtime.
+web/.vite/
+web/dist/
+*.log
+npm-debug.log*
+yarn-error.log*
