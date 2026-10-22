@@ -4,6 +4,10 @@
 clean in-world prompt with a hold-to-interact key, multi-choice menus and a full dialogue system.
 The prompt is rendered as a DUI sprite in the world — no fullscreen NUI, no focus stealing.
 
+**[Product page](https://avenidascripts.com/scripts/avenida-interact)** · **[Documentation](https://avenidascripts.com/docs/avenida-interact)** · **[All our scripts](https://avenidascripts.com/scripts)** · **[Discord](https://discord.gg/avenida)**
+
+Free, and free to stay. Download it here or grab it from the product page.
+
 ## Features
 
 - **Peds** — spawn an NPC by distance with its animation, blip and interaction, all from one table
@@ -129,14 +133,16 @@ Any unknown value is drawn as text, so you can pass an emoji directly.
 `standalone` uses the native `DisplayHud` / `DisplayRadar`. Set `Config.Hud = 'custom'` and edit the
 `custom` branch to call your own HUD resource instead.
 
-## Escrow
+## Source
 
-Cfx escrow protected. These files stay readable and editable:
+This repository holds the full source, nothing is hidden. The package you get from the
+product page is the same code, so you can read it here before installing it.
 
-- `config/*.lua` and `config/**/*.lua`
-- `bridges/*.lua`
-- `README.md`, `CHANGELOG.md`
+The files you are most likely to edit are `config/*.lua` for your own points, peds and
+entities, and `bridges/*.lua` for your notification and HUD system.
 
 ## Support
 
-Avenida Scripts — see the Tebex product page for support.
+Questions, bug reports and feature requests: [our Discord](https://discord.gg/avenida).
+
+More scripts at [avenidascripts.com](https://avenidascripts.com/scripts).
